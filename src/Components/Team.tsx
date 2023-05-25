@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 function Team() {
     return (
-        <div className="my-10 gap-y-8 flex flex-col">
+        <div id="team" className="my-10 gap-y-8 flex flex-col">
             <h2 className="text-3xl text-center text-[#c0fa49]">Our Members</h2>
-            <h1 className="text-5xl text-center text-white" >Get to know amazing people</h1>
+            <h1 className="text-4xl sm:text-5xl text-center text-white" >Get to know amazing people</h1>
             <p className="text-gray-400 text-lg text-center max-w-[800px] mx-auto">Our mission is to be the global standard for modern crypto issuing, empowering builders to bring the most innovative products to the world.</p>
                 <motion.div
                 className="grid grid-cols-2 sm:grid-cols-3 gap-x-12 gap-y-10 mx-auto items-center justify-center">

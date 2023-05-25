@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 function Testimonials() {
     return (
-        <div className='text-white mt-10 mb-20'>
+        <div id='testimonials' className='text-white mt-10 mb-20'>
             <h1 className='text-[#c0fa49] text-4xl text-center'>Testimonials</h1>
             <motion.div 
             transition={{duration:0.5}}
@@ -31,11 +31,11 @@ function Testimonials() {
                             <img src="Ellipse9.svg" alt="" className='absolute bottom-0 left-24 sm:left-[7%] w-28' />
                         </div>
                         <div className='flex flex-col w-full sm:w-[55%] gap-y-8'>
-                            <h2 className='text-5xl'>What our customers are saying</h2>
+                            <h2 className='text-4xl sm:text-5xl'>What our customers are saying</h2>
                             <p className='text-white/70 text-lg'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suspendisse lectus erat curabitur at sit arcu luctus augue. Sceleriaque purus placerat scelerisque quis venenatis sollicitudin. Fermentum habitant proin iaculis tortor gravida vulputate sed justo.”</p>
                             <div>
-                                <h5 className='text-2xl'>Jassir Pingle</h5>
-                                <span className='text-xl text-gray-400'>Designer of Leo</span>
+                                <h5 className='text-xl sm:text-2xl'>Jassir Pingle</h5>
+                                <span className='text-lg sm:text-xl text-gray-400'>Designer of Leo</span>
                             </div>    
                         </div>
                     </div>
@@ -47,11 +47,11 @@ function Testimonials() {
                             <img src="Ellipse9.svg" alt="" className='absolute bottom-0 left-24 sm:left-[7%] w-28' />
                         </div>
                         <div className='flex flex-col w-full sm:w-[55%] gap-y-8'>
-                            <h2 className='text-5xl'>What our customers are saying</h2>
+                            <h2 className='text-4xl sm:text-5xl'>What our customers are saying</h2>
                             <p className='text-white/70 text-lg'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suspendisse lectus erat curabitur at sit arcu luctus augue. Sceleriaque purus placerat scelerisque quis venenatis sollicitudin. Fermentum habitant proin iaculis tortor gravida vulputate sed justo.”</p>
                             <div>
-                                <h5 className='text-2xl'>Jens Leu</h5>
-                                <span className='text-xl text-gray-400'>Photographer</span>
+                                <h5 className='text-xl sm:text-2xl'>Jens Leu</h5>
+                                <span className='text-lg sm:text-xl text-gray-400'>Photographer</span>
                             </div>    
                         </div>
                     </div>
@@ -63,11 +63,11 @@ function Testimonials() {
                             <img src="Ellipse9.svg" alt="" className='absolute bottom-0 left-24 sm:left-[7%] w-28' />
                         </div>
                         <div className='flex flex-col w-full sm:w-[55%] gap-y-8'>
-                            <h2 className='text-5xl'>What our customers are saying</h2>
+                            <h2 className='text-4xl sm:text-5xl'>What our customers are saying</h2>
                             <p className='text-white/70 text-lg'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suspendisse lectus erat curabitur at sit arcu luctus augue. Sceleriaque purus placerat scelerisque quis venenatis sollicitudin. Fermentum habitant proin iaculis tortor gravida vulputate sed justo.”</p>
                             <div>
-                                <h5 className='text-2xl'>Kathryn Murphy</h5>
-                                <span className='text-xl text-gray-400'>CEO of Stripe</span>
+                                <h5 className='text-xl sm:text-2xl'>Kathryn Murphy</h5>
+                                <span className='text-lg sm:text-xl text-gray-400'>CEO of Stripe</span>
                             </div>    
                         </div>
                     </div>

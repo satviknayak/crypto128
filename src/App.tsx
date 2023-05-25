@@ -1,3 +1,4 @@
+import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
 import FeatureA from "./Components/FeatureA";
 import FeatureB from "./Components/FeatureB";
@@ -10,7 +11,8 @@ import Testimonials from "./Components/Testimonials";
 function App() {
 
   return (
-    <div className="flex flex-col max-w-full h-fit overflow-hidden bg-black">
+    <div className="flex flex-col max-w-full w-full h-fit overflow-hidden bg-black relative scroll-smooth">
+      <Navbar/>
       <Header/>
       <FeatureA/>
       <FeatureB/>

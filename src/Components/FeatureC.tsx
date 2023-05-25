@@ -11,7 +11,7 @@ function FeatureC() {
             <div className="flex flex-col w-full sm:w-[60%] px-8 sm:px-6 gap-y-4 py-10">
                 <h1 className="text-white text-4xl">Completely leverage other products</h1>
                 <p className="text-gray-400">Dramatically reintermediate effective applications after high-payoff core competence.Authoritatively optimize collaborative benefits</p>
-                <button className="text-black text-lg px-6 py-2 bg-[#c9fa49] w-fit rounded-full mt-6">
+                <button className="text-[#c0fa49] border-2 border-[#c0fa49] hover:text-black text-lg px-6 py-2 bg-black hover:bg-[#c9fa49] w-fit rounded-full mt-6 transition-all duration-500 ease-in-out">
                     Get Started
                 </button>
             </div>
